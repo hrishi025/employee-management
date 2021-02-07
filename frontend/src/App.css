@@ -1,0 +1,61 @@
+.table {
+  margin-top: 50px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.table-error {
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.col-sm {
+  padding: 20px;
+  text-align: left;
+}
+
+.emp-search .row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: auto;
+}
+
+.div-sal {
+  background-color: pink;
+  margin-left: 30px;
+}
+
+.div-attendance {
+  background-color: pink;
+}
+
+.div-info {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.emp-search {
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 10px;
+  margin-top: 100px;
+}
+
+.table {
+}
+
+.table-row {
+}
+
+.table-col {
+  vertical-align: top;
+  height: 350px;
+  width: 350px;
+}
