@@ -1,0 +1,39 @@
+.login-details-adm {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  background-color: thistle;
+}
+
+.login-details-emp {
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  background-color: thistle;
+}
+
+.card {
+  margin-top: 1%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.table-error {
+  text-align: center;
+}
+
+.title {
+  margin-top: 1%;
+  padding-top: 20px;
+}
+
+.footer {
+  clear: both;
+  text-align: right;
+  position: fixed;
+  width: 80%;
+  bottom: 20px;
+  height: auto;
+}

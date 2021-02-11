@@ -15,6 +15,8 @@ const routerPresentDays = require('./routes/present_days')
 
 const app = express()
 
+const port = process.env.PORT || 4000
+
 // enable frontend application to call the APIs
 app.use(cors('*'))
 
@@ -26,7 +28,7 @@ app.use((request, response, next) => {
   // signin and signup
 
   if (
-    request.url == '/user/login' ||
+    request.url == '/user/emplogin' ||
     request.url == '/user/signup' ||
     request.url.startsWith('/user/verify') ||
     request.url.startsWith('/user/status')
@@ -68,6 +70,6 @@ app.get('/', (request, response) => {
   response.send('welcome to notes application')
 })
 
-app.listen(4000, '0.0.0.0', () => {
-  console.log(`server started on port 4000`)
+app.listen(port, () => {
+  console.log(`server started on port ${port}`)
 })

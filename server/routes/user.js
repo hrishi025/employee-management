@@ -51,7 +51,7 @@ router.post('/signup', (request, response) => {
   })
 })
 
-router.post('/login', (request, response) => {
+router.post('/emplogin', (request, response) => {
   const { email, password } = request.body
 
   // encrypt the password
