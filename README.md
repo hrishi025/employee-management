@@ -1,3 +1,40 @@
+# Demo link
+
+> https://hrishi025.github.io/employee-management-web/
+
+# Steps for starting project:
+
+1. require nodejs (https://nodejs.org/en/). First install this before going to next steps.
+2. install following node_modules in frontend dirctory:
+
+   ```node
+    npm install react-router-dom redux react-redux redux-thunk redux-devtools-extension axios redux-logger
+   ```
+
+3. install following node_modules in server dirctory:
+
+   ```node
+   npm install -g nodemon
+   ```
+
+   ```node
+   npm install express mysql2 jsonwebtoken crypto-js body-parser cors
+   ```
+
+4. then start the server by opening cmd in server directory
+
+   ```npm
+    nodemon server.js
+   ```
+
+5. then open cmd in front end directory and use following command
+
+   ```npm
+    npm start
+   ```
+
+6. Then the website will be loded successfully in your browser
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
